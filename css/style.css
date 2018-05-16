@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+}
+
+div.col-6{
+	flex: 0 0 49%;
+}
+/* div#articles{
+	height: 500px;
+} */
+
+h1, h2, h3
+{
+    text-align:center;
+}
+.clear{
+	clear: both;
+}
+
+.container form{
+	width: 70%;
+	margin: auto;
+}
+
+div.comment-form div.form-group.pseudo{
+	display: inline-block;
+	width: 24.9%;
+}
+div.comment-form div.form-group.commentaire{
+	display: inline-block;
+	float: right;
+	width: 74%;
+}
+
+
+
+
+/***** P H P  E R R O R s ****/
+.xdebug-error {
+	background-color: 	#400D01 !important;
+	border-color: 		#26011B !important;
+	color: 				#F1D179 !important;
+	font-size: 			1.4em;
+	margin: 			auto;
+}
+.xdebug-error th {
+	background-color: 	#400D01 !important;
+	padding: 			5px;
+}
+.xdebug-error th span{
+	background-color: 	#400D01 !important;
+	color: 				#F1D179 !important;
+	font-size: 			large !important;
+}
+.xdebug-error tr td {
+	background-color: 	#59331A !important;
+}
+footer {
+	text-align: center;
+}
